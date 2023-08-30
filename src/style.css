@@ -100,4 +100,22 @@ h1{
     align-items: center;
     justify-content: center;
 }
-
+.side-pic{
+    position:absolute
+}
+.pic-tomato1{
+left: 1px;
+top:450px
+}
+.pic-tomato2{
+    left: 1px;
+    top:650px;
+}
+.pic-sauce1{
+    top: 320px;
+    right: 0px;
+}
+.pic-sauce2{
+    top: 580px;
+    right: 0px;
+}
