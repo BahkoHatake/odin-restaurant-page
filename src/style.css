@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+}
+#container{
+
+    display: grid;
+    grid-template-rows: minmax(150px,170px) auto;
+}
+.header{
+    background:rgb(52, 0, 0);
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.nav >button{
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+    border: 0;
+    background:none;
+    color: rgb(184, 140, 215);
+    font-size: 1.6rem;
+    font-weight: 700;
+    height: 30px;
+}
+.icon{
+    min-width: 400px;
+    flex: 1;
+}
+.placeholder{
+    flex: 1;
+}
+.icon>img{
+    position: absolute;
+    left:140px;
+}
+.header button:hover{
+    color:rgb(255, 212, 26);
+    transform: scale(1.1);
+    transition: ease 0.1s;
+}
+.main{
+    background: #202324;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    align-items: center;
+}
+.location{
+    margin-top: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+    width: 100%;
+}
+h1{
+    color: rgb(184, 140, 215);
+    font-size: 3rem;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    width: 300px;
+}
+.title{
+    color: rgb(184, 140, 215);
+    font-size: 1.8rem;
+}
+.info{
+    color: rgb(184, 140, 215);
+    font-size: 1.4rem;
+    text-align: center;
+}
+.pic>img{
+    width: 100vw;
+}
+.about{
+    width: 50vw;
+    margin-bottom: 200px;
+}
+.footer{
+    height: 100px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
