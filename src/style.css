@@ -43,7 +43,7 @@ body{
     transform: scale(1.1);
     transition: ease 0.1s;
 }
-.main{
+.main-home{
     background: #202324;
     display: flex;
     flex-direction: column;
@@ -105,11 +105,11 @@ h1{
 }
 .pic-tomato1{
 left: 1px;
-top:450px
+top:650px
 }
 .pic-tomato2{
     left: 1px;
-    top:650px;
+    top:850px;
 }
 .pic-sauce1{
     top: 320px;
@@ -118,4 +118,34 @@ top:450px
 .pic-sauce2{
     top: 580px;
     right: 0px;
+}
+.menu-main{
+    padding: 100px;
+    background: #202324;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.menu-card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:200px;
+}
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    width: 300px;
+    background: rgb(64, 30, 88);
+    border-radius: 30px;
+    padding: 40px;
+    padding-top: 0;
+}.menu-card > .title{
+    color: white;
+}
+.menu-card img{
+    width: 200px;
 }
