@@ -1,10 +1,10 @@
 import './style.css';
-import {createHeader,createHome,addSidePictures, removeHomePage} from './home-page'
+import {createHeader,createHome,removeHomePage,createFooter} from './home-page'
 import { createMenu } from './menu-page';
 import { createContact } from './contact-page';
 createHeader();
 createHome();
-
+createFooter();
 
 
 const menuBtn=document.querySelector(".menu-btn");

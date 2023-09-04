@@ -1,15 +1,16 @@
 
 body{
     margin: 0;
+
 }
 #container{
-
     display: grid;
     grid-template-rows: minmax(150px,170px) auto;
 }
 .header{
     background:rgb(52, 0, 0);
     display: flex;
+
 }
 .nav{
     display: flex;
@@ -86,7 +87,7 @@ h1{
     text-align: center;
 }
 .pic>img{
-    width: 100vw;
+    width:99vw;
 }
 .about{
     width: 50vw;
@@ -146,6 +147,10 @@ top:650px
     border-radius: 30px;
     padding: 40px;
     padding-top: 0;
+}
+.menu-card:hover{
+    transform: scale(1.06);
+    transition: ease 0.3s;
 }
 .menu-card img{
     width: 200px;

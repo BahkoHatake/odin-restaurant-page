@@ -170,6 +170,13 @@ function addSidePictures(){
     main.appendChild(sidePicHolder4);
     
 };
+function createFooter(){
+    const footer=document.createElement("div");
+    footer.classList.add("footer");
+    footer.innerHTML="Made by Bate Bane"
+
+    container.appendChild(footer)
+};
 function removeHomePage(){
     const main=document.querySelector(".main");
     main.innerHTML="";
@@ -180,5 +187,6 @@ export {
     createHome,
     addSidePictures,
     removeHomePage,
+    createFooter,
     main
   };
