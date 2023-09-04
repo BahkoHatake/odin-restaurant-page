@@ -124,6 +124,7 @@ function createHome(){
     main.appendChild(mainHome);
 
     container.appendChild(main)
+    addSidePictures();
 };
 
 
